@@ -1,0 +1,3 @@
+#!/bin/bash
+echo $PYCODE > a.py
+python3 a.py
