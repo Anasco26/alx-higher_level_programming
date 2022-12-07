@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
     """Return best score"""
-    if not isinstance(a_dictionary, dict) or a_dictionary is None:
+    if not isinstance(a_dictionary, dict) or len(a_dictionary) == 0:
         return
     best_key = [x for x in a_dictionary.keys()][0]
     for key in a_dictionary:
