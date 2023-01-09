@@ -1,0 +1,1 @@
+Learning Pythong inheritance implementation
